@@ -1,0 +1,107 @@
+@media screen and (min-width:0px){
+   
+    #MovingHeader{
+    font-size: 25px;  font-weight: 700; position:relative;
+    }
+    #AnimateBackground{
+        height: auto;
+    }
+    .footer{
+        font-size: xx-small;
+    }
+    #FooterTitle{
+        font-size: small;
+    }  
+    #welcome{
+        font-size: 15px;
+    }  
+}
+  
+@media screen and (min-width:481px){
+    #MovingHeader{
+        font-size: 30px;
+    }
+    #AnimateBackground{
+        height: auto;
+    }
+    .Footer{
+        font-size: xx-small;
+    }
+    #FooterTitle{
+        font-size: xx-small;
+    }    
+    #welcome{
+        font-size: 15px;
+    }  
+}
+  
+
+@media screen and (min-width:600px){
+    #MovingHeader{
+        font-size: 35px;
+    }
+    #AnimateBackground{
+        height: 9%;
+    }
+    .Footer{
+        font-size: x-small;
+    }
+    #FooterTitle{
+        font-size: x-small;
+    }    
+    #welcome{
+        font-size: 15px;
+    }  
+}
+    
+@media screen and (min-width:768px){
+    #MovingHeader{
+        font-size: 40px;
+    }
+    #AnimateBackground{
+        height: 8%;
+    }
+    .Footer{
+        font-size: x-small;
+    }
+    #FooterTitle{
+        font-size: x-small;
+    }    
+    #welcome{
+        font-size: 20px;
+    }  
+}
+@media screen and (min-width:992px){
+    #MovingHeader{
+        font-size: 50px;
+    }
+    #AnimateBackground{
+        height: 8%;
+    } 
+    .Footer{
+        font-size: small;
+    }
+    #FooterTitle{
+        font-size: small;
+    }  
+    #welcome{
+        font-size: 25px;
+    }       
+}
+@media screen and (min-width:1200px){
+    #MovingHeader{
+        font-size: 60px;
+    } 
+    #AnimateBackground{
+        height: 5%;
+    } 
+    .Footer{
+        font-size: medium;
+    }
+    #FooterTitle{
+        font-size: medium;
+    }    
+    #welcome{
+        font-size: 30px;
+    }  
+} 

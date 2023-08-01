@@ -1,0 +1,49 @@
+body{
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+    
+}
+.Footer{
+    
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    color: white;
+    position:fixed;
+    bottom: 0;
+    
+}
+.row{
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+
+#FooterTitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.nav-item a{
+    text-align: left;
+    color: white;
+}
+/*a:hover{
+    background-color: blue;
+    color: white;
+}*/
+a:visited{
+    text-decoration: underline;
+    
+}
+.fa:hover {  
+    opacity: 0.9;  
+}

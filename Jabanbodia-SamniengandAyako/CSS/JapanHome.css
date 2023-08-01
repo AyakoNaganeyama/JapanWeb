@@ -1,0 +1,161 @@
+.hero{
+    background-image: url("/ImageJapanHome/MtFuji.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment:fixed;/*Making the cover image not move */
+    position:relative;/*Making hero section parent*/
+    z-index:2;
+
+
+
+
+
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+   background-color: rgba(37, 39, 71, 0.7);
+    z-index:-1;/*heroafter goes behind hero */
+
+
+
+}
+
+h1,h2,h3,h4,h5,h6,.display-4{
+
+
+    font-weight:700
+}
+
+
+section{
+    padding-top:120px;
+    padding-bottom:120px;
+}
+
+.card-effect{
+
+
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    padding:25px;
+    transition: all 0,35s ease;
+
+
+
+
+
+
+
+
+}
+
+.card-effect:hover{
+
+    box-shadow: none;
+    transform: translateY(5px); /*5px down when you hover */
+}
+
+
+.iconbox{
+    width:54px;
+    height:54px;
+    display:flex;
+    align-items: center;/*horizontal*/
+    justify-content: center;/*vertical*/
+    font-size:32px;
+    border-radius: 100px;
+    
+
+
+
+}
+
+
+.service{
+    position:relative;
+    overflow: hidden;
+}
+
+.service::after{
+
+
+    content:"";
+    position:absolute;
+    top: -100%;
+    left:0;
+    background-color:rgba(37, 39, 71, 0.7);
+    width:100%;
+    height:100%;
+    opacity: 0;
+    transition: all 0.35s ease; /*colour shows up slower*/
+    z-index: -1;
+
+
+
+}
+
+.service:hover::after{
+    opacity: 1;
+    top:0;/*make service::after slide from the top*/
+   
+
+}
+
+
+.service:hover h5,
+.service:hover p {
+
+    color:white;
+    
+
+
+
+
+
+
+}
+
+.service:hover .iconbox{
+    background-color: white;
+
+
+
+}
+
+
+#Food{
+    background-image: url(/ImgFood/Udon.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+  
+
+}
+
+
+
+#Place{
+    background-image: url(/ImgPlaceJapan/Onsen.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+  
+
+}
+
+.caption{
+    opacity: 0;
+}
+.caption:hover{
+    opacity: 1;
+}
+

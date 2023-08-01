@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Jquery link from https://www.w3schools.com/jquery/jquery_get_started.asp-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Social Media Icon link and idea from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/CSS/StyleFooter.css">
+    <link rel="stylesheet" href="/CSS/StyleHome.css">
+    <script src="/JS/FtterScript.js"></script>
+    <script src="/JS/Menu.js"></script>
+
+    
+    <script type="text/Javascript" src="/JS/Answer.js"></script>
+    <style>
+        /* idea from https://www.w3schools.com/html/html_images_background.asp*/
+        body{
+            background-image: url('/imgQuiz/shotaro-hamasaki-ab0poThbUHk-unsplash.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+            position: relative;
+            font-weight: bolder;
+            color: black;
+        }
+        #TotalScoreButton{
+            
+            font-weight: bolder;
+        } 
+        ul{
+            list-style-type: none;
+        }            
+            
+       
+        .result{
+            font-size: 50px;
+        }
+        #total{
+            
+            font-weight: bolder;
+            
+        }
+
+        #AnimateBackground{
+        width: 100%;               
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        color: white;
+        animation-name: MovingHeader;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        }
+        
+        @keyframes MovingHeader{
+            0%{color: white; left: 0px; right: 0px;}
+            25%{color: white; left: 100px; right: 0px;}
+            50%{color: white; left: 100x; right: 0px;}
+            75%{color: white; left: 0px; right: 100px;}
+            100%{color: white; left: 0px; right: 0px;}
+        }
+        .container{
+            background-color: azure;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container-fluid " style = background-color:#18a4bc>
+        <nav id="menu">
+         
+  
+          </nav>
+      </div>
+    
+    <div id="AnimateBackground">
+        <div>
+            <h1 id="MovingHeader" style="text-align: center;">Welcome to Quiz Page!</h1>
+        </div>
+        
+    </div>
+    <div class="jumbotron bg-info mb-4">
+        
+    </div>
+    <div class="container p-5 border rounded-cirle">
+        <h1> Let's Test Your Virtual mMemory and Earn &#128150;!</h1><br>
+        <p> This page is about fun! Let's see how much you remember about Japan and Cambodia. You will earn one &#128150; for one correct answer.
+            You can choose to check your result for each question at a time or wait until the end. </p>
+            <ul>
+                <li>
+                    <p>&#128073; If you choose to check the answer of each question, if this &#x1F31E; appears, it means your answer is correct.</p>
+                    <p>However, if this &#x1F620; pops up, your answer is not correct. </p>
+                </li>
+                <li>
+                    <p>&#128073; If you only check all the answers at the end, the emjoji will not pop up.</p>
+                </li>
+            </ul>
+        
+        <p> Are you ready? </p>
+        <p>Let's start! &#128071;</p>
+    </div><br>
+    <div>
+
+    </div>
+    <!--Basic idea is from the lesson in class. However, I created many new items that is not covered in class-->
+    <div class="container p-5">
+        
+        <form name="quiz" id="quiz">
+            <div class="row form-group">
+                <div class="col-6">
+                    
+                    <p class="Question"> 1. Which hotel should you stay if you like Robots to serve you?</p>
+                    <p><input class type="radio" name="question1" value="Henn na Hotel"/>Henn na Hotel</p>
+                    <p><input class type="radio" name="question1" value="Ginzan Onsen"/>Ginzan Onsen</p>
+                    <p><input class type="radio" name="question1" value="ONE@Tokyo"/>ONE@Tokyo</p>
+                    
+                </div>
+                <div class="col-3 align-self-end">
+                    <p class="result1" id="EndCheckCorrect1" style="display: none; color: green;">&#8730;</p>
+                    <p class="result1" id="EndCheckIncorrect1" style="display: none; color: red;"> &#935;</p>
+                    <p><input type="button" value="Check Answer" onclick="check1()" /></p>
+                </div>
+                
+                <div class="col-3 align-self-center">
+                    <p class="result" id="Correct1" style="display: none;">&#x1F31E;</p>
+                    <p class="result" id="Incorrect1" style="display: none;">&#x1F620;</p>
+                    
+                </div>
+            </div>
+            <div class="row form-group">
+                
+                <div class="col-6">
+                    <p class="Question"> 2. What is the capital city of Japan?</p>                    
+                    <p><input class="form-control" type="text" id="question2" name="question6" value="" /></p>
+                </div>
+                <!--align-self-end style is from https://getbootstrap.com/docs/4.1/layout/grid/-->
+                <div class="col-3 align-self-end">
+                    <p class="result1" id="EndCheckCorrect2" style="display: none; color: green;">&#8730;</p>
+                    <p class="result1" id="EndCheckIncorrect2" style="display: none; color: red;"> &#935;</p>
+                    <p><input type="button" value="Check Answer" onclick="check2()" /></p>
+                </div>
+                <div class="col-3 align-self-center">
+                    <p class="result" id="Correct2" style="display: none;">&#x1F31E;</p>
+                    <p class="result" id="Incorrect2" style="display: none;">&#x1F620;</p>
+                    
+                </div>
+            </div>
+            <div class="row form-group">
+                
+                <div class="col-6">
+                    <p class="Question"> 3. What is the capital city of Cambodia?</p>                    
+                    <p><input class="form-control" type="text" id="question3" name="question3" value="" required /></p>
+                    
+                </div>
+                <div class="col-3 align-self-end">
+                    <p class="result1" id="EndCheckCorrect3" style="display: none; color: green;">&#8730;</p>
+                    <p class="result1" id="EndCheckIncorrect3" style="display: none; color: red;"> &#935;</p>
+                    <p><input type="button" value="Check Answer" onclick="check3()" /></p>
+                </div>
+                <div class="col-3 align-self-center">
+                    <p class="result" id="Correct3" style="display: none;">&#x1F31E;</p>
+                    <p class="result" id="Incorrect3" style="display: none;">&#x1F620;</p>
+                    
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-6">
+                    <p class="Question"> 4. what is Tamagoyaki?</p>
+                    <p><input class type="radio" name="question4" value="Omelette"/>Omelette</p>
+                    <p><input class type="radio" name="question4" value="Juicy Meat Patty"/>Juicy Meat Patty</p>
+                    <p><input class type="radio" name="question4" value="Stewed Meat"/>Stewed Meat</p>
+                    
+                </div>
+                <div class="col-3 align-self-end">
+                    <p class="result1" id="EndCheckCorrect4" style="display: none; color: green;">&#8730;</p>
+                    <p class="result1" id="EndCheckIncorrect4" style="display: none; color: red;"> &#935;</p>
+                    <p><input type="button" value="Check Answer" onclick="check4()" /></p>
+                </div>
+                <div class="col-3 align-self-center">
+                    <p class="result" id="Correct4" style="display: none;">&#x1F31E;</p>
+                    <p class="result" id="Incorrect4" style="display: none;">&#x1F620;</p>
+                    
+                </div>
+            </div>            
+            
+            <div class="row form-group">
+                <div class="col-6">
+                    <p class="Question"> 5. where is Angkor Wat located?</p>
+                    <p><input class type="radio" name="question5" value="Phnom Penh"/>Phnom Penh</p>
+                    <p><input class type="radio" name="question5" value="Siem Reap"/>Siem Reap</p>
+                    <p><input class type="radio" name="question5" value="Battambang"/>Battambang</p>
+                    
+                </div>
+                <div class="col-3 align-self-end">
+                    <p class="result1" id="EndCheckCorrect5" style="display: none; color: green;">&#8730;</p>
+                    <p class="result1" id="EndCheckIncorrect5" style="display: none; color: red;"> &#935;</p>
+                    <p><input type="button" value="Check Answer" onclick="check5()" /></p>
+                </div>
+                <div class="col-3 align-self-center">
+                    <p class="result" id="Correct5" style="display: none;">&#x1F31E;</p>
+                    <p class="result" id="Incorrect5" style="display: none;">&#x1F620;</p>
+                    
+                </div>
+            </div> <br>
+            <div class="container">
+                <div class="row form-group">
+                    <div class="col-xs-4">
+                        <input class="bg-info text-light border-light" id="TotalScoreButton" type="button" value="Calculate My Score" onclick="check()"/>
+                    </div>
+                    <div class="col-4 text-right text-uppercase">Score:</div>
+        
+                    <div class="col-1 align-self-end text-left">
+                        <p id="total"></p>
+                    </div>
+                    
+                </div>
+            </div>       
+            
+            
+        </form>
+    
+    <br><br><br><br><br>
+    <div>
+        <main-footer></main-footer>
+    </div>
+</body>
+</html>

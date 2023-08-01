@@ -1,0 +1,16 @@
+#banner{
+    position:relative;
+    height:100%;
+    width:100%;
+  
+
+}
+canvas{
+    background:white;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+

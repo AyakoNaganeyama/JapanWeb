@@ -1,0 +1,167 @@
+body{
+    background-color: azure;
+}
+.Intro{
+    max-width: 75%;    
+    font-weight: bolder;
+}
+.video{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+}
+#BodyContainer{
+    display: block;
+    margin-bottom: 30px;
+    max-width: 100%;
+    grid-gap: 25px 50px;
+    
+}
+a{
+    color: white;
+}
+/*carosoul caption position idea from https://stackoverflow.com/questions/21213154/bootstrap-carousel-caption-top-alignment*/
+.carousel-caption{
+    top: 40%;
+    bottom: auto;
+    text-align: left;    
+    font-weight: 2000px;
+    
+}
+button{
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+}
+
+
+/*media screen measurement from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/ 
+@media screen and (min-width:0px){
+   
+    #MovingHeader{
+    font-size: 25px;  font-weight: 700; position:relative;
+    }
+    #AnimateBackground{
+        height: auto;
+    }
+    .footer{
+        font-size: xx-small;
+    }
+    #FooterTitle{
+        font-size: small;
+    }  
+    #welcome{
+        font-size: 15px;
+    }  
+}
+  
+@media screen and (min-width:481px){
+    #MovingHeader{
+        font-size: 30px;
+    }
+    #AnimateBackground{
+        height: auto;
+    }
+    .Footer{
+        font-size: xx-small;
+    }
+    #FooterTitle{
+        font-size: xx-small;
+    }    
+    #welcome{
+        font-size: 15px;
+    }
+    .caption{
+        font-size: 30px;
+    }  
+}
+  
+
+@media screen and (min-width:600px){
+    #MovingHeader{
+        font-size: 35px;
+    }
+    #AnimateBackground{
+        height: 9%;
+    }
+    .Footer{
+        font-size: x-small;
+    }
+    #FooterTitle{
+        font-size: x-small;
+    }    
+    #welcome{
+        font-size: 15px;
+    } 
+    .caption{
+        font-size: 40px;
+    }   
+}
+    
+@media screen and (min-width:768px){
+    #MovingHeader{
+        font-size: 40px;
+    }
+    #AnimateBackground{
+        height: 8%;
+    }
+    .Footer{
+        font-size: x-small;
+    }
+    #FooterTitle{
+        font-size: x-small;
+    }    
+    #welcome{
+        font-size: 20px;
+    }
+    .caption{
+        font-size: 60px;
+    }    
+}
+@media screen and (min-width:992px){
+    #MovingHeader{
+        font-size: 50px;
+    }
+    #AnimateBackground{
+        height: 8%;
+    } 
+    .Footer{
+        font-size: small;
+    }
+    #FooterTitle{
+        font-size: small;
+    }  
+    #welcome{
+        font-size: 25px;
+    } 
+    .caption{
+        font-size: 70px;
+    }        
+}
+@media screen and (min-width:1200px){
+    #MovingHeader{
+        font-size: 60px;
+    } 
+    #AnimateBackground{
+        height: 5%;
+    } 
+    .Footer{
+        font-size: medium;
+    }
+    #FooterTitle{
+        font-size: medium;
+    }    
+    #welcome{
+        font-size: 30px;
+    }
+    .caption{
+        font-size: 100px;
+    }    
+} 
+
+
+   
