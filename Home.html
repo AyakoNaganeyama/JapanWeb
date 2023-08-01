@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="./JS/Header.js"></script>
+    
+    <script src="./JS/FtterScript.js" type="text/JavaScript"></script>
+   
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,11 +27,12 @@
 
     <!--Social Media Icon link and idea from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/CSS/StyleFooter.css">
-    <link rel="stylesheet" href="/CSS/StyleHome.css">
-    <link rel="stylesheet" href="/CSS/Stylefooter2.css">
-    <script src="/JS/FtterScript.js"></script>
-    <script src="/JS/Menu.js"></script>
+    <link rel="stylesheet" href="./CSS/StyleFooter.css">
+    <link rel="stylesheet" href="./CSS/StyleHome.css">
+    <link rel="stylesheet" href="./CSS/Stylefooter2.css">
+    <link rel="stylesheet" href="./CSS/Header.css">
+
+    
     <style>
         
         #AnimateBackground{
@@ -59,10 +65,10 @@
 </head>
 <body>
     <div class="container-fluid " style = background-color:#18a4bc>
-        <nav id="menu">
-         
-  
-          </nav>
+        <div>
+            <main-header></main-header>
+        </div>
+        
       </div>
    
 
@@ -83,21 +89,21 @@
             
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <a href="/JapanHome.html"><img class="img-responsive" src="/ImgHome/mountain-g7cb30872f_1920.jpg" alt="japan" width="100%" height="10%"></a>
+                    <a href="./JapanHome.html"><img class="img-responsive" src="./ImgHome/mountain-g7cb30872f_1920.jpg" alt="japan" width="100%" height="10%"></a>
                     <div class="carousel-caption" style=" top: 40%;
                     bottom: auto;
                     text-align: left;    
                     font-weight: 2000px;">
-                        <a href="/JapanHome.html" style="color:white;"><h1 id="header">Let's Explore Japan!</h1></a>
+                        <a href="./JapanHome.html" style="color:white;"><h1 id="header">Let's Explore Japan!</h1></a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <a href="Cambodia.html" ><img  class="img-responsive" src="/ImgHome/paul-szewczyk-Jfm2l4GMNc4-unsplash.jpg" alt="cambodia" width="100%" height="10%"></a>
+                    <a href=".Cambodia.html" ><img  class="img-responsive" src="./ImgHome/paul-szewczyk-Jfm2l4GMNc4-unsplash.jpg" alt="cambodia" width="100%" height="10%"></a>
                     <div class="carousel-caption" style=" top: 40%;
                     bottom: auto;
                     text-align: left;    
                     font-weight: 2000px;">
-                        <a href="Cambodia.html" style="color:white;"  ><h1 id="header">Let's Explore Cambodia!</h1></a>
+                        <a href=".Cambodia.html" style="color:white;"  ><h1 id="header">Let's Explore Cambodia!</h1></a>
                     </div>
                 </div>
             </div>
@@ -128,14 +134,14 @@
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                             <div class="image">
-                                <a href="/PlaceJapan.html" ><p><img src="/ImgHome/weiqi-xiong-Vu0Jq3OalMM-unsplash.jpg" class="img-thumbnail"/></p></a>
-                                <a href="/PlaceJapan.html" ><button>Things to Do</button></a>
+                                <a href="./PlaceJapan.html" ><p><img src="./ImgHome/weiqi-xiong-Vu0Jq3OalMM-unsplash.jpg" class="img-thumbnail"/></p></a>
+                                <a href="./PlaceJapan.html" ><button>Things to Do</button></a>
                             </div></a>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pl-1">
                             <div class="image">
-                                <a href="/FoodJapan.html" ><p><img  src="/ImgHome/mahmoud-fawzy-n1DePkKznLY-unsplash.jpg" class="img-thumbnail"/></p></a>
-                                <a href="/FoodJapan.html" ><button>Food</button></a>
+                                <a href="./FoodJapan.html" ><p><img  src="./ImgHome/mahmoud-fawzy-n1DePkKznLY-unsplash.jpg" class="img-thumbnail"/></p></a>
+                                <a href="./FoodJapan.html" ><button>Food</button></a>
                             </div>
                         </div>
                         <!--https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_responsive_embed&stacked=h-->
@@ -151,13 +157,13 @@
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                             <div class="image">
-                                <a href="/PlaceCambodia.html"><p><img  src="/ImgHome/paul-szewczyk-o4ispOaaO48-unsplash.jpg" class="img-thumbnail"/></p></a>
+                                <a href="/PlaceCambodia.html"><p><img  src="./ImgHome/paul-szewczyk-o4ispOaaO48-unsplash.jpg" class="img-thumbnail"/></p></a>
                                 <a href="/PlaceCambodia.html" ><button>Things to Do</button></a>
                             </div>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pl-1">
                             <div class="image">
-                                <a href="/FoodCambodia.html"><p><img src="/ImgHome/khmer-food-gd0eaa999c_1920.jpg" class="img-thumbnail"/></p></a>
+                                <a href="/FoodCambodia.html"><p><img src="./ImgHome/khmer-food-gd0eaa999c_1920.jpg" class="img-thumbnail"/></p></a>
                                 <a href="/FoodCambodia.html" ><button>Food</button></a>
                             </div>
                         </div>

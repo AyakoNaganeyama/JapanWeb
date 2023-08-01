@@ -1,5 +1,5 @@
 .hero{
-    background-image: url("/ImageJapanHome/MtFuji.jpg");
+    
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -131,7 +131,7 @@ section{
 
 
 #Food{
-    background-image: url(/ImgFood/Udon.jpg);
+    
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
@@ -143,7 +143,7 @@ section{
 
 
 #Place{
-    background-image: url(/ImgPlaceJapan/Onsen.jpg);
+   
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;

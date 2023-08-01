@@ -10,10 +10,10 @@ class Footer extends HTMLElement{
                             <h6 id="FooterTitle" class="text-white">Website</h6>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/AboutUs.html">About</a>
+                            <a class="nav-link text-white" href="./AboutUs.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/Form.html">Contact</a>
+                            <a class="nav-link text-white" href="./Form.html">Contact</a>
                         </li>
                     </ul>
         
@@ -26,10 +26,10 @@ class Footer extends HTMLElement{
                             <h6 id="FooterTitle" class="text-white">Visit</h6>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/PlaceJapan.html">Japan</a>
+                            <a class="nav-link text-white" href="./PlaceJapan.html">Japan</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/PlaceCambodia.html">Cambodia</a>
+                            <a class="nav-link text-white" href="./PlaceCambodia.html">Cambodia</a>
                         </li>
                     </ul>
         
@@ -42,10 +42,10 @@ class Footer extends HTMLElement{
                             <h6 id="FooterTitle" class="text-white">Food</h6>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/FoodJapan.html">Japan</a>
+                            <a class="nav-link text-white" href="./FoodJapan.html">Japan</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/FoodCambodia.html">Cambodia</a>
+                            <a class="nav-link text-white" href="./FoodCambodia.html">Cambodia</a>
                         </li>
                     </ul>
         
@@ -77,10 +77,10 @@ class Footer extends HTMLElement{
                             <h6 id="FooterTitle" class="text-white">More</h6>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="Quiz.html">Quiz</a>
+                            <a class="nav-link text-white" href="./Quiz.html">Quiz</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/Home.html">Home</a>
+                            <a class="nav-link text-white" href="./Home.html">Home</a>
                         </li>
                     </ul>
         
