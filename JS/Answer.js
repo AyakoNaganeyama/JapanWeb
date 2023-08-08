@@ -7,10 +7,10 @@ function check() {
 	 */
 	const score = ''
 	const Q1 = document.quiz.question1.value
-	var Q2 = document.quiz.question2.value
-	var Q3 = document.quiz.question3.value
-	var Q4 = document.quiz.question4.value
-	var Q5 = document.quiz.question5.value
+	const Q2 = document.quiz.question2.value
+	const Q3 = document.quiz.question3.value
+	const Q4 = document.quiz.question4.value
+	const Q5 = document.quiz.question5.value
 
 	if (Q1.toLowerCase() == 'Henn na Hotel'.toLowerCase()) {
 		score = score + '&#128150;'
@@ -57,12 +57,12 @@ function check() {
 }
 /*Function check1, check2...are for individual check answer to show emoji for fun*/
 function check1() {
-	var score = ''
-	var Q1 = document.quiz.question1.value
-	var Q2 = document.quiz.question2.value
-	var Q3 = document.quiz.question3.value
-	var Q4 = document.quiz.question4.value
-	var Q5 = document.quiz.question5.value
+	const score = ''
+	const Q1 = document.quiz.question1.value
+	const Q2 = document.quiz.question2.value
+	const Q3 = document.quiz.question3.value
+	const Q4 = document.quiz.question4.value
+	const Q5 = document.quiz.question5.value
 	if (Q1 == 'Henn na Hotel') {
 		score = score + '&#128150;'
 		document.getElementById('Correct1').style.display = 'block'
@@ -74,8 +74,8 @@ function check1() {
 }
 
 function check2() {
-	var score = ''
-	var Q2 = document.quiz.question2.value
+	const score = ''
+	const Q2 = document.quiz.question2.value
 	if (Q2.toLowerCase() == 'Tokyo'.toLowerCase()) {
 		score = score + '&#128150;'
 		document.getElementById('Correct2').style.display = 'block'
@@ -87,8 +87,8 @@ function check2() {
 	}
 }
 function check3() {
-	var score = ''
-	var Q3 = document.quiz.question3.value
+	const score = ''
+	const Q3 = document.quiz.question3.value
 	if (Q3.toLowerCase() == 'Phnom Penh'.toLowerCase()) {
 		score = score + '&#128150;'
 		document.getElementById('Correct3').style.display = 'block'
@@ -100,8 +100,8 @@ function check3() {
 	}
 }
 function check4() {
-	var score = ''
-	var Q4 = document.quiz.question4.value
+	const score = ''
+	const Q4 = document.quiz.question4.value
 	if (Q4 == 'Omelette') {
 		score = score + '&#128150;'
 		document.getElementById('Correct4').style.display = 'block'
@@ -113,8 +113,8 @@ function check4() {
 	}
 }
 function check5() {
-	var score = ''
-	var Q5 = document.quiz.question5.value
+	const score = ''
+	const Q5 = document.quiz.question5.value
 	if (Q5 == 'Siem Reap') {
 		score = score + '&#128150;'
 		document.getElementById('Correct5').style.display = 'block'
