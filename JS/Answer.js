@@ -5,8 +5,8 @@ function check() {
 	 * a red flag when others look at your code as well, if employers see it they will think bad things
 	 * you can use let and const
 	 */
-	var score = ''
-	var Q1 = document.quiz.question1.value
+	const score = ''
+	const Q1 = document.quiz.question1.value
 	var Q2 = document.quiz.question2.value
 	var Q3 = document.quiz.question3.value
 	var Q4 = document.quiz.question4.value
