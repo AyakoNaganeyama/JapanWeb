@@ -29,3 +29,14 @@ Example:
   // origin means where it's saved online, in this project we have it saved on github. main is the version of your project.
   git push origin main
 ```
+
+# when to save/commit
+
+Only save code that works, is stable.
+No commit is too small.
+Example:
+
+```
+  // commit message: change var to let
+  var users = ["John", "Kate"] =>   const users = ["John", "Kate"]
+```
