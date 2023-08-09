@@ -1,10 +1,10 @@
 /* Function to compute the total score*/
 function check() {
-	/*@TODO: change var into const
-	 * var accidentally change value, if app gets big you don't want that to happen by accident
-	 * a red flag when others look at your code as well, if employers see it they will think bad things
-	 * you can use let and const
+	/**
+	 * @TODO: Seems like score is not being calculated
+	 * Will need to go through this in next catchup
 	 */
+
 	const score = ''
 	const Q1 = document.quiz.question1.value
 	const Q2 = document.quiz.question2.value
@@ -20,6 +20,7 @@ function check() {
 		document.getElementById('EndCheckIncorrect1').style.display = 'block'
 		document.getElementById('EndCheckCorrect1').style.display = 'none'
 	}
+
 	if (Q2.toLowerCase() == 'Tokyo'.toLowerCase()) {
 		score = score + '&#128150;'
 		document.getElementById('EndCheckCorrect2').style.display = 'block'
@@ -55,14 +56,21 @@ function check() {
 
 	document.getElementById('total').innerHTML = score
 }
+
 /*Function check1, check2...are for individual check answer to show emoji for fun*/
 function check1() {
+	/**
+	 * @TODO: Doesn't look like Q2, Q3, Q4, Q5 are being used.
+	 * Please look into this remove if not being used
+	 */
+
 	const score = ''
 	const Q1 = document.quiz.question1.value
 	const Q2 = document.quiz.question2.value
 	const Q3 = document.quiz.question3.value
 	const Q4 = document.quiz.question4.value
 	const Q5 = document.quiz.question5.value
+
 	if (Q1 == 'Henn na Hotel') {
 		score = score + '&#128150;'
 		document.getElementById('Correct1').style.display = 'block'
@@ -99,6 +107,7 @@ function check3() {
 		document.getElementById('Correct3').style.display = 'none'
 	}
 }
+
 function check4() {
 	const score = ''
 	const Q4 = document.quiz.question4.value
@@ -112,6 +121,7 @@ function check4() {
 		document.getElementById('Correct4').style.display = 'none'
 	}
 }
+
 function check5() {
 	const score = ''
 	const Q5 = document.quiz.question5.value
