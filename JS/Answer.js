@@ -5,21 +5,24 @@ function check() {
 	 * Will need to go through this in next catchup
 	 */
 
-	const score = ''
-	const Q1 = document.quiz.question1.value
-	const Q2 = document.quiz.question2.value
-	const Q3 = document.quiz.question3.value
-	const Q4 = document.quiz.question4.value
-	const Q5 = document.quiz.question5.value
+	let score = '';
+const Q1 = document.quiz.question1.value;
+const Q2 = document.quiz.question2.value;
+const Q3 = document.quiz.question3.value;
+const Q4 = document.quiz.question4.value;
+const Q5 = document.quiz.question5.value;
 
-	if (Q1.toLowerCase() == 'Henn na Hotel'.toLowerCase()) {
-		score = score + '&#128150;'
-		document.getElementById('EndCheckCorrect1').style.display = 'block'
-		document.getElementById('EndCheckIncorrect1').style.display = 'none'
-	} else {
-		document.getElementById('EndCheckIncorrect1').style.display = 'block'
-		document.getElementById('EndCheckCorrect1').style.display = 'none'
-	}
+if (Q1.toLowerCase() === 'Henn na Hotel'.toLowerCase()) {
+  score += '&#128150;';
+  document.getElementById('EndCheckCorrect1').style.display = 'block';
+  document.getElementById('EndCheckIncorrect1').style.display = 'none';
+} else {
+  document.getElementById('EndCheckIncorrect1').style.display = 'block';
+  document.getElementById('EndCheckCorrect1').style.display = 'none';
+}
+
+// Similar checks for other questions...
+
 
 	if (Q2.toLowerCase() == 'Tokyo'.toLowerCase()) {
 		score = score + '&#128150;'
