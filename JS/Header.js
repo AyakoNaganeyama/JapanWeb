@@ -41,10 +41,7 @@ class Header extends HTMLElement{
                   <li class="nav-item">
                     <a class="m mr-2 nav-link" href="./Form.html">Contact Us</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="m mr-2 nav-link" href="./Quiz.html">Quiz</a>
-                  </li>
-
+                 
                  
                 </ul>
               

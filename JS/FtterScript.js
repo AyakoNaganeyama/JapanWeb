@@ -76,9 +76,7 @@ class Footer extends HTMLElement{
                         <li class="nav-item">
                             <h6 id="FooterTitle" class="text-white">More</h6>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./Quiz.html">Quiz</a>
-                        </li>
+                       
                         <li class="nav-item">
                             <a class="nav-link text-white" href="./index.html">Home</a>
                         </li>
