@@ -34,18 +34,7 @@ class Header extends HTMLElement{
                         <a class="dropdown-item" href="./PlaceJapan.html" style="color:black">Place to visit in Japan</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="m mr-2 nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                     Cambodia     
-                    </a>
-                    <div class="dropdown-menu">
-
-
-                      <a class="dropdown-item" href="./Cambodia.html" style="color:black">Cambodia Home</a>
-                      <a class="dropdown-item" href="./FoodCambodia.html" style="color:black">Food in Cambodia</a>
-                      <a class="dropdown-item" href="./PlaceCambodia.html" style="color:black">Place to visit in Cambodia</a>
-                    </div>
-                </li>
+              
                 <li class="nav-item">
                     <a class="m mr-2 nav-link" href="./AboutUs.html">About</a>
                   </li>
