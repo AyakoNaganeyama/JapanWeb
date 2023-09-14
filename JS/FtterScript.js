@@ -28,11 +28,7 @@ class Footer extends HTMLElement{
                         <li class="nav-item">
                             <a class="nav-link text-white" href="./PlaceJapan.html">Japan</a>
                         </li>
-<<<<<<< HEAD
                         
-=======
-                      
->>>>>>> ce8b0f0806eb32d53a0871e3c2d6ee87ff870b28
                     </ul>
         
                 </nav>
