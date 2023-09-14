@@ -28,9 +28,7 @@ class Footer extends HTMLElement{
                         <li class="nav-item">
                             <a class="nav-link text-white" href="./PlaceJapan.html">Japan</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./PlaceCambodia.html">Cambodia</a>
-                        </li>
+                      
                     </ul>
         
                 </nav>
@@ -44,9 +42,7 @@ class Footer extends HTMLElement{
                         <li class="nav-item">
                             <a class="nav-link text-white" href="./FoodJapan.html">Japan</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="./FoodCambodia.html">Cambodia</a>
-                        </li>
+                     
                     </ul>
         
                 </nav>
