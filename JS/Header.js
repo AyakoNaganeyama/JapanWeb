@@ -19,7 +19,7 @@ class Header extends HTMLElement{
               <div class="collapse navbar-collapse" id="navbarResponsive" style="background-color:#18a4bc;">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                    <a class="m nav-link mr-2" href="./Home.html">Home
+                    <a class="m nav-link mr-2" href="./index.html">Home
                       <span class="sr-only">(current)</span>
                     </a>
                   </li>
