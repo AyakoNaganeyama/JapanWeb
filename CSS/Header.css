@@ -1,8 +1,8 @@
 .m{color:white;
     font-size:20px;}
 
-   
-.navbar-toggler-icon{background-image: url("/Img/TogglerIcon.png");}
+
+.navbar-toggler-icon{background-image: url("./Img/TogglerIcon.png");}
 
 .Search{
 
@@ -40,5 +40,3 @@ width:200px;
 
 
 }
-
-
