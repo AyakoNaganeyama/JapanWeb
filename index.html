@@ -1,192 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <script src="./JS/Header.js"></script>
-    
-    <script src="./JS/FtterScript.js" type="text/JavaScript"></script>
-   
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    
-    <!-- jQuery library -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    
-    <!-- Popper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <!--Jquery link from https://www.w3schools.com/jquery/jquery_get_started.asp-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Japan Home Page</title>
 
-    <!--Social Media Icon link and idea from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./CSS/StyleFooter.css">
-    <link rel="stylesheet" href="./CSS/StyleHome.css">
-    <link rel="stylesheet" href="./CSS/Stylefooter2.css">
-    <link rel="stylesheet" href="./CSS/Header.css">
+		<!--Bootstrap4-->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="./CSS/JapanHome.css" />
 
-    
-    <style>
-        
-        #AnimateBackground{
-        width: 100%;               
-        background: transparent;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        color: white;
-        animation-name: MovingHeader;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-        animation-direction: normal;
-        }
-        
-        @keyframes MovingHeader{
-            0%{color: white; left: 0px; right: 0px;}
-            25%{color: white; left: 100px; right: 0px;}
-            50%{color: white; left: 100x; right: 0px;}
-            75%{color: white; left: 0px; right: 100px;}
-            100%{color: white; left: 0px; right: 0px;}
-        }
-        
-        
+		<!--Bootstrap5-->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    </style>
-    
-    
-</head>
-<body>
-    <div class="container-fluid " style = background-color:#18a4bc>
-        <div>
-            <main-header></main-header>
-        </div>
-        
-      </div>
-   
+		<!--Box Icons-->
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
 
-   
-    <div id="AnimateBackground">
-        <div>
-            <h1 id="MovingHeader" style="text-align: center;">Welcome to JapanBodia Website!</h1>
-        </div>
-        
-    </div>
-    
-    <div class="jumbotron bg-info mb-4">
-        
-    </div>
-    
-    <div class="container-fluid" id="SlideImage">
-        <div class="carousel slide pt-0 pb-4" id="header" data-ride="carousel">
-            
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="./JapanHome.html"><img class="img-responsive" src="./ImgHome/mountain-g7cb30872f_1920.jpg" alt="japan" width="100%" height="10%"></a>
-                    <div class="carousel-caption" style=" top: 40%;
-                    bottom: auto;
-                    text-align: left;    
-                    font-weight: 2000px;">
-                        <a href="./JapanHome.html" style="color:white;"><h1 id="header">Let's Explore Japan!</h1></a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <a href=".Cambodia.html" ><img  class="img-responsive" src="./ImgHome/paul-szewczyk-Jfm2l4GMNc4-unsplash.jpg" alt="cambodia" width="100%" height="10%"></a>
-                    <div class="carousel-caption" style=" top: 40%;
-                    bottom: auto;
-                    text-align: left;    
-                    font-weight: 2000px;">
-                        <a href=".Cambodia.html" style="color:white;"  ><h1 id="header">Let's Explore Cambodia!</h1></a>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#header" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#header" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>            
-        </div>
-        
-        
-    </div>
+		<link rel="stylesheet" href="./CSS/StyleFooter.css" />
+		<script src="./JS/FtterScript.js"></script>
+		<link rel="stylesheet" href="./CSS/StyleFooter.css" />
+		<link rel="stylesheet" href="./CSS/Stylefooter2.css" />
 
-    <!--https://www.w3schools.com/bootstrap4/bootstrap_containers.asp-->
-    <div class="Intro container-xl p-5 mr-25% center border text-center text-light bg-primary">
-        <p id="welcome">Welcome to JapanBodia website ✈! We are travel obssessed and would like to share with you travel-related information of Japan and Cambodia.
-            Exploring our website is like you are visiting Japan and Cambodia without breaking your bank! To make your browsing experience more interesting, we include a fun quiz page.
-            Enjoy!&#128512;
-        </p>
-    </div>
-    <!--container border colors from https://getbootstrap.com/docs/4.0/utilities/borders/-->
-    <div class="container mb-5 p-3 px-4 text-center " id="BodyContainer">
-        <div class="row gx-5">
-            <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6  p-2">
-                <div class=" container border border-info Japan p-2">
-                    <h4>What's in Japan?</h4>
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            <div class="image">
-                                <a href="./PlaceJapan.html" ><p><img src="./ImgHome/weiqi-xiong-Vu0Jq3OalMM-unsplash.jpg" class="img-thumbnail"/></p></a>
-                                <a href="./PlaceJapan.html" ><button>Things to Do</button></a>
-                            </div></a>
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pl-1">
-                            <div class="image">
-                                <a href="./FoodJapan.html" ><p><img  src="./ImgHome/mahmoud-fawzy-n1DePkKznLY-unsplash.jpg" class="img-thumbnail"/></p></a>
-                                <a href="./FoodJapan.html" ><button>Food</button></a>
-                            </div>
-                        </div>
-                        <!--https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_responsive_embed&stacked=h-->
-                        <div class="video col-xs-6 col-sm-6 col-md-6 col-lg-6 embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/16d1rOJFV5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-            <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-6 p-2">
-                <div class="container border border-info Cambodia p-2 ">
-                    <h4>What's in Cambodia?</h4>
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            <div class="image">
-                                <a href="/PlaceCambodia.html"><p><img  src="./ImgHome/paul-szewczyk-o4ispOaaO48-unsplash.jpg" class="img-thumbnail"/></p></a>
-                                <a href="/PlaceCambodia.html" ><button>Things to Do</button></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pl-1">
-                            <div class="image">
-                                <a href="/FoodCambodia.html"><p><img src="./ImgHome/khmer-food-gd0eaa999c_1920.jpg" class="img-thumbnail"/></p></a>
-                                <a href="/FoodCambodia.html" ><button>Food</button></a>
-                            </div>
-                        </div>
-                        <!--https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_responsive_embed&stacked=h-->
-                        <div class="video col-xs-6 col-sm-6 col-md-6 col-lg-6 embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cyAG1XebXfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>           
-           
-        </div>
-    </div>
-    
-    
-    <div>
-        <main-footer></main-footer>
-    </div>
-    
-    
-            
-    
-</body>
+		<!--Social Media Icon link and idea from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+
+		<link rel="stylesheet" href="./CSS/Header.css" />
+		<script src="./JS/FtterScript.js"></script>
+		<script src="./JS/Header.js"></script>
+	</head>
+	<body>
+		<!-----------------------------This page is created by Ayako------------------------------------------------->
+		<!-----------------------------Menu Bar---------------------------------------->
+		<div class="container-fluid" style="background-color: #18a4bc">
+			<div>
+				<main-header></main-header>
+			</div>
+		</div>
+
+		<!--A.N 6/10/2022 Cover Image-->
+		<div
+			class="hero vh-100 d-flex align-items-center"
+			id="home"
+			style="
+				margin-left: 50px;
+				margin-right: 50px;
+				background-image: url(./ImageJapanHome/MtFuji.jpg);
+			"
+		>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 mx-auto text-center">
+						<h1 class="text-white display-4">Welcome to Japan</h1>
+						<p class="text-white my-3">
+							Japan has a lot of amazing food and places! We would like to
+							introduce our recommended food and places to visit in Japan!
+						</p>
+
+						<!--Buttons to two links-->
+						<a
+							href="#Food"
+							class="btn me-2 text-white"
+							style="background-color: #08c4ac"
+							>Food</a
+						>
+						<a href="#Place" class="btn btn-outline-light">Place</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section id="service">
+			<div class="container">
+				<div class="row">
+					<!--A.N 6/10/2022 Paragrah-->
+					<div
+						class="col-md-8 mx-auto text-center"
+						style="padding-bottom: 50px"
+					>
+						<h1>Love Japan!</h1>
+						<p>There are so many places and food to explore in Japan!</p>
+					</div>
+				</div>
+
+				<!---A.N row for links 6/10/2022-->
+				<div class="row">
+					<!--The first col-->
+					<div class="col-md-6">
+						<a href="./FoodJapan.html" style="text-decoration: none">
+							<!--Card for food page link-->
+							<div
+								class="service card-effect"
+								id="Food"
+								style="background-image: url(./ImgFood/Udon.jpg)"
+								;
+							>
+								<div class="caption" style="height: 300px">
+									<div class="iconbox">
+										<!--A.N I got icons from https://boxicons.com/?query=food 6/10/2022-->
+										<i class="bx bxs-baguette"></i>
+									</div>
+
+									<h5 class="mt-4 mb-2 text-white">Food</h5>
+									<p class="text-white">
+										From Sushi to Ramen, you will definitely love taste of
+										Japan!
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<!--The second col-->
+
+					<div class="col-md-6">
+						<a href="./PlaceJapan.html" style="text-decoration: none">
+							<!--Card for  Place page link-->
+							<div
+								class="service card-effect"
+								id="Place"
+								style="background-image: url(./ImgPlaceJapan/Onsen.jpg)"
+							>
+								<div class="caption" style="height: 300px">
+									<div class="iconbox">
+										<!--I got icon from https://boxicons.com/?query=food-->
+										<i class="bx bxs-castle"></i>
+									</div>
+
+									<h5 class="mt-4 mb-2 text-white">Place</h5>
+									<p class="text-white">
+										To be honest, it was hard to choose places beacse there are
+										too many!
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div>
+			<main-footer></main-footer>
+		</div>
+	</body>
 </html>
