@@ -29,7 +29,7 @@ class Header extends HTMLElement{
                      Japan
                     </a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="./index.html" style="color:black">Japan Home</a>
+
                         <a class="dropdown-item" href="./FoodJapan.html" style="color:black">Food in Japan</a>
                         <a class="dropdown-item" href="./PlaceJapan.html" style="color:black">Place to visit in Japan</a>
                     </div>
