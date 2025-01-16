@@ -8,7 +8,7 @@ class Footer extends HTMLElement{
                 <nav class="navbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <h6 id="FooterTitle" class="text-white">Visit</h6>
+                            <h6 id="FooterTitle" class="text-white">Places</h6>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="./PlaceJapan.html">Japan</a>
