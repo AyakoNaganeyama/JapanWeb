@@ -49,13 +49,22 @@
     <link rel="stylesheet" href="./CSS/Header.css" />
     <script src="./JS/FtterScript.js"></script>
     <script src="./JS/Header.js"></script>
+
+    <style>
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+    </style>
   </head>
   <body>
     <!-------------------------------This page is created by Ayako----------------------------------------------->
 
     <!-----------------------------Menu bar-------------------------------------------------------->
 
-    <div>
+    <div id="myHeader">
       <main-header></main-header>
     </div>
 
@@ -588,6 +597,24 @@
           $("#extra2").slideToggle();
         });
       });
+    </script>
+
+    <!-- for fixed positioned header  -->
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
     </script>
   </body>
 </html>

@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us Page</title>
 
+    <style>
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+    </style>
+
     <!--JS for Menu test-->
 
     <!--Bootstrap-->
@@ -54,9 +63,9 @@
     <!-----------------------------------------------Menu----------------------------------------------------------------->
 
 
-      <div>
-        <main-header></main-header>
-      </div>
+    <div id="myHeader">
+      <main-header></main-header>
+    </div>
 
 
     <!----------------------------------------------Paragraph--------------------------------------------------------------->
@@ -227,7 +236,22 @@
         });
       });
     </script>
+ <script>
+  window.onscroll = function () {
+    myFunction();
+  };
 
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+</script>
 
   </body>
 </html>

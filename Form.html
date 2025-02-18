@@ -47,6 +47,13 @@
       span {
         color: red;
       }
+
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
     </style>
 
     <!--Social Media Icon link and idea from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
@@ -63,7 +70,7 @@
 
     <!--Menu bar-->
 
-    <div>
+    <div id="myHeader">
       <main-header></main-header>
     </div>
 
@@ -318,5 +325,22 @@
     </div>
 
     <div style="padding-bottom: 300px"></div>
+
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
   </body>
 </html>

@@ -30,7 +30,14 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="./CSS/Stylefooter2.css">
 
-
+   <style>
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+  </style>
 
 
 </head>
@@ -40,8 +47,8 @@
     <!--Navigation-->
 
 
-      <div>
-        <main-header></main-header>
+    <div id="myHeader">
+      <main-header></main-header>
     </div>
 
 
@@ -1084,6 +1091,23 @@ $(this).html("Read More");
 
 
 
+</script>
+
+<script>
+  window.onscroll = function () {
+    myFunction();
+  };
+
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
 </script>
 </body>
 </html>
